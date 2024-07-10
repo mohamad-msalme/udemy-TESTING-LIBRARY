@@ -1,0 +1,22 @@
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 2;
+  padding: "12px 16px";
+  border: "none";
+  color: white;
+  &:hover {
+    opacity: 90;
+  }
+  &:focus {
+    border: none;
+    opacity: 100;
+  }
+}

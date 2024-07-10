@@ -1,0 +1,19 @@
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  user-select: none;
+  & input[type="checkbox"] {
+    margin: 0;
+    cursor: pointer;
+    appearance: none;
+    box-shadow: inset;
+    border-radius: 8px;
+    background-color: blue;
+    width: 1rem;
+    height: 1rem;
+    &:checked {
+      background-color: aqua;
+    }
+  }
+}
